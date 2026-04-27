@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vicente Aguado</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Tipografía elegante -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Inter:wght@300&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      color: #eaeaea;
+      font-family: 'Inter', sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 600px;
+      padding: 80px 20px;
+      text-align: left;
+    }
+
+    .intro {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      margin-bottom: 60px;
+      opacity: 0.8;
+    }
+
+    img {
+      width: 100px;
+      border-radius: 2px;
+      margin-bottom: 30px;
+      filter: grayscale(100%) contrast(110%);
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+
+    .section {
+      margin-top: 40px;
+      font-size: 14px;
+      line-height: 1.6;
+      opacity: 0.85;
+    }
+
+    .links a {
+      display: block;
+      margin-top: 8px;
+      color: #eaeaea;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .links a::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -2px;
+      width: 0;
+      height: 1px;
+      background: #eaeaea;
+      transition: 0.3s;
+    }
+
+    .links a:hover::after {
+      width: 100%;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="intro">
+      Images are taken before they are understood.
+    </div>
+
+    <img src="tu-foto.jpg" alt="Vicente Aguado">
+
+    <h1>Vicente Aguado</h1>
+
+    <div class="section">
+      Contemporary artist based in Valencia.  
+      Works around perception, control, and the instability of the image.
+    </div>
+
+    <div class="section">
+      <strong>Statement</strong><br><br>
+      Your statement here. Keep it precise. No decoration.
+    </div>
+
+    <div class="section">
+      <strong>CV</strong><br><br>
+      BA Fine Arts<br>
+      MA Artistic Production<br>
+      Selected exhibitions available upon request
+    </div>
+
+    <div class="section links">
+      <strong>Access</strong><br><br>
+      <a href="#">View available works</a>
+      <a href="#">Follow ongoing process</a>
+      <a href="#">Exhibition record</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
